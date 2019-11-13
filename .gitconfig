@@ -1,0 +1,13 @@
+[remote "origin"]
+    url = git@github.com:huangyingw/oh-my-zsh.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "robbyrussell"]
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+	fetch = +refs/heads/master:refs/remotes/robbyrussell/master
+[commit]
+    message = n
+[gsync]
+    remote = robbyrussell
+    branch = master
+[push]
+    remote = origin
