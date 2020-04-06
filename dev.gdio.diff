@@ -1,0 +1,28 @@
+diff --git a/.gitmodules b/.gitmodules
+new file mode 100644
+index 00000000..102ce18f
+--- /dev/null
++++ ./.gitmodules
+@@ -0,0 +1,3 @@
++[submodule "custom/plugins/zsh-nvm"]
++	path = custom/plugins/zsh-nvm
++	url = https://github.com/lukechilds/zsh-nvm
+diff --git a/custom/plugins/zsh-nvm b/custom/plugins/zsh-nvm
+new file mode 160000
+index 00000000..9f7e1443
+--- /dev/null
++++ ./custom/plugins/zsh-nvm
+@@ -0,0 +1 @@
++Subproject commit 9f7e1443972afc90f3613a4cef8d18c9d35a0c97
+diff --git a/lib/history.zsh b/lib/history.zsh
+index 52e45bf4..ab37692b 100644
+--- ./lib/history.zsh
++++ ./lib/history.zsh
+@@ -33,7 +33,6 @@ SAVEHIST=10000
+ ## History command configuration
+ setopt extended_history       # record timestamp of command in HISTFILE
+ setopt hist_expire_dups_first # delete duplicates first when HISTFILE size exceeds HISTSIZE
+-setopt hist_ignore_dups       # ignore duplicated commands history list
+ setopt hist_ignore_space      # ignore commands that start with space
+ setopt hist_verify            # show command with history expansion to user before running it
+ setopt inc_append_history     # add commands to HISTFILE in order of execution
