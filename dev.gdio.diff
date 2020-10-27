@@ -15,10 +15,10 @@ index 00000000..23067bd9
 @@ -0,0 +1 @@
 +Subproject commit 23067bd9bb6eb6f4737a3ea90cb0cb5e85f61ba2
 diff --git a/lib/history.zsh b/lib/history.zsh
-index 8d922a30..301ef4b2 100644
+index 1f0f3cc2..b80ec968 100644
 --- ./lib/history.zsh
 +++ ./lib/history.zsh
-@@ -33,6 +33,5 @@ esac
+@@ -34,6 +34,5 @@ esac
  ## History command configuration
  setopt extended_history       # record timestamp of command in HISTFILE
  setopt hist_expire_dups_first # delete duplicates first when HISTFILE size exceeds HISTSIZE
