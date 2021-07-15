@@ -8,7 +8,7 @@
     message = n
 [gsync]
     remote = robbyrussell
-    branch = master
+    target = robbyrussell/master
 [push]
     remote = origin
 [branch "dev"]
