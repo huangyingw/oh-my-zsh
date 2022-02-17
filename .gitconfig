@@ -4,8 +4,6 @@
 [remote "robbyrussell"]
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 	fetch = +refs/heads/master:refs/remotes/robbyrussell/master
-[commit]
-    message = n
 [gsync]
     remote = robbyrussell
     target = robbyrussell/master
