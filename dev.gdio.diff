@@ -32,7 +32,7 @@ new file mode 160000
 --- /dev/null
 +++ ./custom/plugins/zsh-nvm
 @@ -0,0 +1 @@
-+Subproject commit 63595c2579daa79d840499d63d41e4648fccfa1c
++Subproject commit a0f0a2cfd07af0e77f339966dcd3f5ae2bebc4c5
 diff --git a/lib/history.zsh b/lib/history.zsh
 --- ./lib/history.zsh
 +++ ./lib/history.zsh
