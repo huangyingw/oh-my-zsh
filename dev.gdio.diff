@@ -1,3 +1,24 @@
+diff --git a/.gitconfig b/.gitconfig
+new file mode 100644
+--- /dev/null
++++ ./.gitconfig
+@@ -0,0 +1,16 @@
++[remote "origin"]
++    url = git@github.com:huangyingw/oh-my-zsh.git
++    fetch = +refs/heads/*:refs/remotes/origin/*
++[remote "robbyrussell"]
++	url = https://github.com/robbyrussell/oh-my-zsh.git
++	fetch = +refs/heads/master:refs/remotes/robbyrussell/master
++[gsync]
++    remote = robbyrussell
++    target = robbyrussell/master
++[push]
++    remote = origin
++[branch "dev"]
++	remote = origin
++	merge = refs/heads/dev
++[gdif]
++    ignore = dev.gdio.diff
 diff --git a/.gitmodules b/.gitmodules
 new file mode 100644
 --- /dev/null
@@ -11,7 +32,7 @@ new file mode 160000
 --- /dev/null
 +++ ./custom/plugins/zsh-nvm
 @@ -0,0 +1 @@
-+Subproject commit 23067bd9bb6eb6f4737a3ea90cb0cb5e85f61ba2
++Subproject commit 63595c2579daa79d840499d63d41e4648fccfa1c
 diff --git a/lib/history.zsh b/lib/history.zsh
 --- ./lib/history.zsh
 +++ ./lib/history.zsh
